@@ -1,12 +1,13 @@
 # Projet Materiel mobile : MBONING Andy & TEBONSO Yves  
-Module : Matériel mobile  
-Sujet : application Vélib Map  
-  
 
+OBJECTIF : L'objectif était de réaliser o une application mobile sur la plate-forme Android à l’aide du langage Kotlin.
+  
 Fonctionnalités de base implémentées :  
 - Afficher sur une carte les stations vélib  
 - Afficher le détail d'une station Vélib  
-- Mettre en favoris des stations (accès aux favoris hors connexion)  
+- Mettre en favoris des stations
+
+NB: Tout ceci peut se faire hors connexion
   
 
 Difficultés rencontrées : l'impléméntation de  l'API Open Data Vélib' Métropole  dans le projet  
@@ -14,6 +15,6 @@ Difficultés rencontrées : l'impléméntation de  l'API Open Data Vélib' Métr
   
 Fonctionnalités supplémentaires :  
 - Supprimer des favoris  
-- Position géographique actuelle de l'utilisateur (*)  
+- Position géographique de l'utilisateur   
   
-(*) : Nous vous prions de donner l'autorisation à l'app d' accéder à la localisation du téléphone.
+NB: il faut autoriser la localisation avant de lancer l'application
