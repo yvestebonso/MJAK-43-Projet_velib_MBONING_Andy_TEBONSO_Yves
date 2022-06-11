@@ -1,4 +1,4 @@
-# Projet Materiel mobile 4A MIN1 MBONING Andy & TEBONSO Yves  
+# Projet Materiel mobile : MBONING Andy & TEBONSO Yves  
 Module : Matériel mobile  
 Sujet : application Vélib Map  
   
