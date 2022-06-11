@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Vélib Go</string>
+    <string name="title_activity_maps">Vélib Go</string>
+    <string name="title_activity_favorites">Stations Favorites</string>
+    <string name="title_activity_details_stations">Détails de la station</string>
+    <string name="add_favorites">Ajouter aux favoris</string>
+</resources>

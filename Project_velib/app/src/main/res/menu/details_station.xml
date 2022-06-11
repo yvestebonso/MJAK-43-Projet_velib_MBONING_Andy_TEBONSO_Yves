@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/id_favorites_stations"
+        android:icon="@drawable/ic_favorite_stations"
+        android:title="Favoris"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/id_map"
+        android:icon="@drawable/ic_location_searching"
+        android:title="Map"
+        app:showAsAction="ifRoom" />
+</menu>

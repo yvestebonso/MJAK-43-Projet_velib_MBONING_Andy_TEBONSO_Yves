@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StationDetailsActivity">
+
+
+    <TextView
+        android:id="@+id/operationnel"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/operationnel_tv"
+        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+
+    <TextView
+        android:id="@+id/operationnel_tv"
+        android:layout_width="135dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/station_name" />
+
+    <TextView
+        android:id="@+id/nb_ebike"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nb_ebike_tv"
+        app:layout_constraintTop_toBottomOf="@+id/nb_mech"
+        app:layout_constraintVertical_bias="0.244" />
+
+    <TextView
+        android:id="@+id/nb_ebike_tv"
+        android:layout_width="255dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nb_mech_tv"
+        app:layout_constraintVertical_bias="0.246" />
+
+    <TextView
+        android:id="@+id/nb_mech"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nb_mech_tv"
+        app:layout_constraintTop_toBottomOf="@+id/nb_borne_dispo"
+        app:layout_constraintVertical_bias="0.191"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nb_mech_tv"
+        android:layout_width="255dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nb_borne_dispo_tv"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <TextView
+        android:id="@+id/nb_borne_dispo"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nb_borne_dispo_tv"
+        app:layout_constraintTop_toBottomOf="@+id/nb_velo_dispo"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <TextView
+        android:id="@+id/nb_borne_dispo_tv"
+        android:layout_width="255dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nb_velo_dispo_tv"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <TextView
+        android:id="@+id/nb_velo_dispo"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/nb_velo_dispo_tv"
+        app:layout_constraintTop_toBottomOf="@+id/operationnel"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/nb_velo_dispo_tv"
+        android:layout_width="255dp"
+        android:layout_height="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/operationnel_tv"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <TextView
+        android:id="@+id/station_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/add_to_favorites_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:fontFamily="Times New Roman"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nb_ebike" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
