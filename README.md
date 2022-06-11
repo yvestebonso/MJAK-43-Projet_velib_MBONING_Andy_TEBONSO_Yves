@@ -16,4 +16,4 @@ Fonctionnalités supplémentaires :
 - Supprimer des favoris  
 - Position géographique actuelle de l'utilisateur (*)  
   
-(*) : Nous vous prions de donnée l'autorisation à l'app d' accéder à la localisation du téléphone.
+(*) : Nous vous prions de donner l'autorisation à l'app d' accéder à la localisation du téléphone.
